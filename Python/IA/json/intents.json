@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag":"uteq",
+      "patterns":["¿Qué es la UTEQ?", "Dime sobre la UTEQ", "Explícame acerca de la UTEQ","UTEQ"],
+      "responses":["La Universidad Tecnologica de Queretaro"]
+    },
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "que tal", "cómo estas", "saludos", "holaa", "ketal", "cmo estas"],
+      "responses": ["¡Hola!", "Buenos días.", "¿Cómo estás?", "¡Hola! Soy un asistente virtual."]
+    },
+    {
+      "tag": "nombre",
+      "patterns": ["como es tu nombre", "como te llamas", "komo es tu nombre", "komo te yamas", "quien eres", "que eres"],
+      "responses": ["Me llamo UTEQTRONIC.", "Mi nombre es UteqTronic."]
+    },
+    {
+      "tag": "clima",
+      "patterns": ["¿Cómo estará el clima hoy?", "Dime el pronóstico del tiempo", "Va a llover mañana?", "va a llover manana"],
+      "responses": ["No sé, estoy chiquito.", "No tengo información sobre el clima en este momento."]
+    },
+    {
+      "tag": "hora",
+      "patterns": ["¿Qué hora es?", "Dime la hora actual", "¿Puedes decirme la hora?", "k hora es"],
+      "responses": ["El tiempo es relativo, mejor revisa el reloj.", "Te recomiendo revisar tu reloj para saber la hora actual."]
+    },
+    {
+      "tag": "fecha",
+      "patterns": ["¿Cuál es la fecha de hoy?", "Dime la fecha actual", "¿Puedes decirme la fecha?", "kual es la fecha", "¿Qué dia es hoy?", "¿A cómo estamos?"],
+      "responses": ["El tiempo es relativo, mejor revisa un calendario.", "Te recomiendo consultar un calendario para saber la fecha actual."]
+    },
+    {
+      "tag": "general",
+      "patterns": ["¿Qué puedes hacer?", "¿Cómo funcionas?", "Explicame tus capacidades", "k puedes acer", "¿Qué haces?", "¿Qué sabes?"],
+      "responses": ["Soy un asistente virtual diseñado para responder preguntas simples.", "Estoy aquí para ayudarte con información."]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Adios", "Hasta luego", "Nos vemos", "adiosss"],
+      "responses": ["Adiós, que tengas un buen día.", "Hasta luego, estoy aquí si necesitas ayuda."]
+    },
+    {
+      "tag": "peliculas",
+      "patterns": ["Peliculas", "¿Qué pelicula te gusta?","¿Puedes recomendarme una película?", "Háblame de películas de ciencia ficción", "¿Qué película está en cartelera?", "pelikulas","Pelicula"],
+      "responses": ["Te recomendaría ver 'Inception', es una excelente película de ciencia ficción.", "Deberías revisar Netflix."]
+    },
+    {
+      "tag": "noticias",
+      "patterns": ["¿Cuáles son las noticias de hoy?", "Dime las noticias más recientes", "¿Qué está pasando en el mundo?", "noticias"],
+      "responses": ["No lo sé, estoy chiquito."]
+    },
+    {
+      "tag": "deporte",
+      "patterns": ["¿Cuál es el resultado del último partido de fútbol?", "Háblame sobre la NBA", "¿Quién ganó el Super Bowl?", "deportes"],
+      "responses": ["No lo sé, estoy chiquito."]
+    },
+    {
+      "tag": "tecnologia",
+      "patterns": ["Háblame sobre los últimos avances en inteligencia artificial", "Explícame el concepto de la nube", "últimos avances en inteligencia artificial", "¿Qué es la tecnología?"],
+      "responses": ["Los avances en inteligencia artificial incluyen el aprendizaje profundo y la visión por computadora.", "La nube es una infraestructura que permite almacenar y acceder a datos en línea."]
+    },
+    {
+      "tag": "viajes",
+      "patterns": ["¿Cuáles son los destinos turísticos populares?", "Háblame sobre París", "¿Cuál es la mejor época para viajar a Bali?", "destinos turísticos populares"],
+      "responses": ["Los destinos turísticos populares incluyen París, Nueva York y Tokio.", "París es conocida como la Ciudad del Amor y es famosa por la Torre Eiffel.", "La mejor época para viajar a Bali es durante la temporada seca, de abril a octubre."]
+    },
+    {
+      "tag": "tavizone",
+      "patterns": ["¿Quién es tu padre?", "¿Quién te creó?", "quien te creo", "quien es tu creador"],
+      "responses": ["Mi creador es SATR."]
+    },
+    {
+      "tag": "comida",
+      "patterns": ["¿Qué recomiendas para cenar?", "Háblame sobre la gastronomía italiana", "¿Cuál es tu comida favorita?", "comida"],
+      "responses": ["No tengo preferencias culinarias, pero la pizza italiana es muy popular.", "La gastronomía italiana es conocida por su pasta y pizza deliciosa."]
+    },
+    {
+      "tag": "musica",
+      "patterns": ["¿Cuál es tu canción favorita?", "Recomiéndame música para relajarme", "Háblame sobre el rock clásico", "musica"],
+      "responses": ["No tengo preferencias musicales, pero la música relajante es buena para descansar.", "El rock clásico incluye bandas legendarias como The Beatles y Led Zeppelin.", "Arcade Fire", "Metronomy"]
+    },
+    {
+      "tag": "deportes",
+      "patterns": ["¿Quién es tu equipo favorito?", "Háblame sobre el fútbol americano", "¿Qué deporte me recomiendas practicar?", "deportes"],
+      "responses": ["No tengo un equipo favorito, pero el fútbol americano es muy popular en Estados Unidos.", "Puedes considerar practicar natación o ciclismo para mantenerte en forma."]
+    },
+    {
+      "tag": "carreras",
+      "patterns": ["Cuáles son las carreras disponibles?", "Dime sobre las opciones de estudios", "Carreras universitarias", "Oferta educativa", "Educación", "¿Qué estudiar?"],
+      "responses": ["La universidad ofrece una variedad de carreras en áreas como informática, ingeniería y negocios.", "Puedes obtener información sobre las carreras disponibles en el sitio web de la universidad.", "Energias Renovables, Mantenimiento Industrial, Mecanica área Automotriz","Tecnologias de Automatizacion Mecatronica, Nanotecnologia, Procesos Industriales area Manufactura","Desarrollo y Gestion de Software Muliplataforma, Tecnologias de la Informacion Area Infraestructura de Redes Digitales, Quimica area Tecnologia Ambiental"]
+    },
+    {
+      "tag": "fechas",
+      "patterns": ["¿Cuándo comienza el registro", "Dame las fechas del tramite", "Fechas tramite", "Tramites", "Registro","Proceso de registro"],
+      "responses": ["Del 2 al 31 de octubre de 2023.", "Puedes encontrar las fechas clave del calendario académico en el sitio web de la universidad."]
+    },
+    {
+      "tag": "horarios",
+      "patterns": ["¿Cuál es el horario de clases?", "Horarios de clases", "Dime mi horario","Horario"],
+      "responses": ["Intensivo Lunes a viernes 7 am a 15 pm. Flexible Lunes a viernes 20 pm a 22 pm y sabados 9 am a 14 pm"]
+    },
+    {
+      "tag": "duracion",
+      "patterns": ["¿Cuántos años dura la carrera de Ingeniería?", "Duración de las carreras", "Tiempo de estudio"],
+      "responses": ["La carrera de puede ser de 3 años 8 meses o de 4 años contando TSU y licenciatura"]
+    },
+    {
+      "tag": "costo",
+      "patterns": ["¿Cuál es el costo?", "Dime sobre los costos de estudiar en la universidad", "Cuánto cuesta estudiar aquí", "Costo", "precio"],
+      "responses": ["Los costos pueden variar según la carrera y el programa. Te recomiendo consultar la página web de la universidad para obtener información detallada.", "De la ficha son mil y treinta pesos, y de inscripcion tres mil y veinte pesos"]
+    },
+    {
+      "tag": "fechas_examen",
+      "patterns": ["¿Cuándo son los exámenes finales?", "Dime las fechas de los exámenes", "Fechas de pruebas"],
+      "responses": ["Las fechas de los exámenes finales suelen estar programadas al final de cada semestre. Debes consultar el calendario académico para conocer las fechas exactas."]
+    },
+    {
+      "tag": "resultados",
+      "patterns": ["¿Cómo puedo consultar mis resultados?", "Dame información sobre la publicación de calificaciones", "Resultados de exámenes"],
+      "responses": ["Los resultados de los exámenes suelen publicarse en el sistema en línea de la universidad. Debes ingresar a tu cuenta para consultar.", "24 de noviembre a las 14 pm"]
+    },
+    {
+      "tag": "inscripciones",
+      "patterns": ["¿Cuándo son las inscripciones para el próximo cuatrimestre?", "Proceso de inscripción", "Cómo inscribirme", "Fechas", "Inscripcion"],
+      "responses": ["Las fechas de inscripción para el próximo cuatrimestre se anuncian en el calendario académico. Asegúrate de estar atento a las fechas y los requisitos de inscripción.","4 al 6 de dicimebre"]
+    },
+    {
+      "tag": "clases",
+      "patterns": ["¿Qué clases se ofrecen este semestre?", "Lista de asignaturas", "Horario de clases"],
+      "responses": ["Puedes encontrar la lista de asignaturas y el horario de clases en el portal en línea de la universidad. También puedes consultar con tu asesor académico para obtener orientación sobre tus clases."]
+    },
+    {
+      "tag": "ubicacion",
+      "patterns": ["¿Dónde está ubicada la universidad?", "Dirección de la universidad", "Cómo llegar a la universidad", "Direccion", "Ubicacion"],
+      "responses": ["La universidad está ubicada en Av. Pie de la Cuesta No. 2501, Col. Unidad Nacional, Queretaro, Qro."]
+    },
+    {
+      "tag":"personas",
+      "patterns":["Rector", "¿Quien es el rector?", "Rector de la uteq", "Quien es el rector de la uteq"],
+      "responses":["José Carlos Arredondo Velázquez"]
+    }
+  ]
+}
